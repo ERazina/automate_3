@@ -1,0 +1,24 @@
+{
+  "name": "les3",
+  "license": "ISC",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "3.1.1",
+    "normalize-scss": "normalize.scss#^6.0.0",
+    "jquery-migrate-official": "^3.0.0",
+    "animate.scss": "*",
+    "bootstrap": "^3.3.7",
+    "bootstrap-notify": "^0.2.0",
+    "owl-carousel": "^1.3.2",
+    "iCheck": "icheck#^1.0.2",
+    "Equalizer": "equalizer#^1.0.0",
+    "waypoints": "^4.0.1",
+    "font-awesome": "fontawesome#^4.7.0"
+  }
+}

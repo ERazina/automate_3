@@ -1,0 +1,32 @@
+﻿$yellow:  #ffaf00;
+$slateblue: #0faaff;
+$white:   #ffffff;
+$black:   #000000;
+
+$font-size: 1em;
+$type: 1rem;
+%width100 {width: 100%;}
+
+/*
+@mixin mq($width, $type:min){
+  $brealpoints:(
+  "sm-phone-p":240px,
+  "sm-phone-l":320px,
+  "phone-p":480px,
+  "phone-l":640px,
+  "tablet-p":768px,
+  "tablet-l":1024px,
+  "desktop":1200px,
+  "desktop-l":1440px
+  );
+  @if map-has-key($breakpoints, $width) {
+    $width:map-get($breakpoints, $width);
+    @if $type == max {
+      $width: $width - 1px;
+    }
+    @media only screen and (#{$type}-width: $width){
+      @content;
+    }
+  }
+}
+*/
